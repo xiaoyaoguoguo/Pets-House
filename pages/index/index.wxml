@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='search'>
+    <icon class='search' type='search' size='20' color='purple'></icon>
+    <input type='text' placeholder='请输入爱宠号' focus='true' placeholder-class="phcolor"></input>
+  </view>
+
+
+
+</view>

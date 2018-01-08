@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFF00",
+    "navigationBarTitleText": "爱宠屋",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#FFFF00"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF0000",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "小镇",
+        "iconPath":"image/tabBar/home.png",
+        "selectedIconPath":"image/tabBar/home1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "社区",
+        "iconPath": "image/tabBar/header.png",
+        "selectedIconPath": "image/tabBar/header1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "image/tabBar/my.png",
+        "selectedIconPath": "image/tabBar/my1.png"
+      }
+    ]
+  }
+}

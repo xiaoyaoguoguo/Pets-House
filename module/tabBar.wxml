@@ -1,0 +1,5 @@
+<!--module/tabBar.wxml-->
+<view class="inner">
+  {{innerText}}
+</view>
+<slot></slot>
